@@ -1,0 +1,91 @@
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 190px 0 0 0;
+}
+
+.d1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(117, 128, 112);
+}
+
+.d2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(78, 73, 99);
+}
+
+.d3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: rgb(90, 91, 109);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.play {
+  width: 134px;
+  height: 35px;
+  background-color: rgb(130, 121, 139);
+  border-radius: 50px;
+}
+
+body {
+  background-image: url(LALA.jpg);
+}
+
+.exit {
+  width: 134px;
+  height: 35px;
+  background-color: rgb(134, 127, 142);
+  border-radius: 50px;
+}
+
+.now {
+  width: 134px;
+  height: 35px;
+  background-color: rgb(119, 112, 126);
+  border-radius: 50px;
+}
